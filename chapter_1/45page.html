@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    //변수 Price를 만들고 값을 28.99 할당.
+    var price = 28.99;
+
+    //변수 discount를 만들고 값을 10 할당.
+    var discount = 10;
+
+    // 변수 total을 만들고 가격에서 할인율만큼 뺀 금액을 할당.
+    var total =
+      price - (price * (discount/100));
+
+    //total이 25보다 클경우 freeShipping() 실행.
+    if (total > 25){
+      freeShipping();
+    }
+
+
+
+    //변수 count에 값으로 10 할당.
+    var count = 10;
+
+    //juggle()실행하고 count에서 1을 뺀값을 다시 count에 할당하는 과정을 count가 0보다 작은 조건에서 계속 실행
+    while (count < 0){
+      juggle();
+      count = count - 1;
+    }
+
+    //변수 dog에 이름 "땡칠이"와 무게 35 할당.
+    var dog = {name: "땡칠이", weight: 35};
+
+    // dog의 무게가 30보다 크면 "월!월!"이라고 얼럿을 띄우고 그렇지 않으면 "멍!멍!"이라고 얼럿을 띄움.
+    if (dog.weight > 30){
+      alert("월!월!");
+    }else {
+      alert("멍!멍!");
+    }
+
+    //변수 circleRadius에 20을 할당
+    var circleRadius = 20;
+
+    //circleRadius와 circleRadius를 곱한 값에 원주율을 곱한 후, 변수circleArea에 할당
+    var circleArea =
+      Math.PI * (circleRadius * circleRadius);
+
+
+  </script>
+</head>
+<body>
+  <h1>45페이지</h1>
+</body>
+</html>
